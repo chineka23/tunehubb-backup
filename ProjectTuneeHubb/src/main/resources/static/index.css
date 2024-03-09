@@ -1,0 +1,32 @@
+/* Resetting default styles */
+* {
+  margin: 1000;
+  padding: 1000;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eddfee;
+  padding: 300px;
+
+
+}
+
+/* Link styles */
+a {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #800080;
+  border-radius: 50px;
+}
+
+a:hover {
+  background-color: #d200d2;
+}

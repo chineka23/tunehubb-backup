@@ -1,0 +1,40 @@
+/* Resetting default styles */
+* {
+  margin: 1000;
+  padding: 1000;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color:  #eddfee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form container styles */
+form {
+  display: inline-block;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #800080;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color:#d200d2;
+}

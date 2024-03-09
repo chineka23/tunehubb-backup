@@ -1,0 +1,52 @@
+/* Resetting default styles */
+* {
+  margin: 1000;
+  padding: 1000;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eddfee;
+  padding: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Table header styles */
+thead {
+  background-color: #800080;
+  color: #fff;
+}
+
+/* Table header cell styles */
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table body styles */
+tbody {
+  background-color: #fff;
+}
+
+/* Table row styles */
+tr:nth-child(even) {
+  background-color: #eddfee;
+}
+
+/* Table cell styles */
+td {
+  padding: 10px;
+}
+
+/* Audio controls styles */
+audio {
+  width: 100%;
+}
